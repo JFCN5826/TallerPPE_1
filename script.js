@@ -5,7 +5,7 @@ const slides = document.querySelectorAll('.slider-slide');
 const dots = document.querySelectorAll('.dot');
 const totalSlides = slides.length;
 
-// Sistema de traducciones
+// Traducciones
 const translations = {
     es: {
         'nav.home': 'Inicio',
@@ -370,7 +370,7 @@ function goToSlide(index) {
 function startAutoPlay() {
     slideInterval = setInterval(() => {
         goToSlide(currentSlide + 1);
-    }, 4000); // Cambiar diapositiva cada 4 segundos
+    }, 4000);
 }
 
 function resetAutoPlay() {
@@ -541,7 +541,7 @@ function clearFieldError(field) {
 }
 
 function showFormSuccess() {
-    // Crear mensaje de éxito
+
     const successMessage = document.createElement('div');
     successMessage.className = 'form-success';
     successMessage.style.cssText = `
@@ -558,7 +558,6 @@ function showFormSuccess() {
     const form = document.getElementById('contactForm');
     form.appendChild(successMessage);
     
-    // Remover mensaje después de 5 segundos
     setTimeout(() => {
         successMessage.remove();
     }, 5000);
@@ -739,7 +738,7 @@ window.addEventListener('error', (e) => {
     console.error('Error de JavaScript:', e.error);
 });
 
-// Registro de Service Worker (para características PWA)
+// Registro de Service Worker 
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
         navigator.serviceWorker.register('/sw.js')
