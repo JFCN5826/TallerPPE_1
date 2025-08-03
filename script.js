@@ -52,7 +52,7 @@ const translations = {
         'contact.info.address': 'Dirección',
         'contact.info.address.value': 'Cq. 1 #70-01, Medellín, Colombia',
         'contact.info.phone': 'Teléfono',
-        'contact.info.phone.value': '+1 (555) 123-4567',
+        'contact.info.phone.value': '+57 316 0571065',
         'contact.info.email': 'Email',
         'contact.info.email.value': 'info@techvision.com',
         'contact.form.name': 'Tu nombre',
