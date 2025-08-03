@@ -26,7 +26,7 @@ const translations = {
         'slider.slide4.description': 'Asesoramiento experto en tecnología',
         'services.title': 'Nuestros Servicios',
         'services.web.title': 'Desarrollo Web',
-        'services.web.description': 'Sitios web modernos, responsivos y optimizados para SEO',
+        'services.web.description': 'Sitios web modernos, responsives y optimizados para SEO',
         'services.mobile.title': 'Apps Móviles',
         'services.mobile.description': 'Aplicaciones nativas para iOS y Android con UX excepcional',
         'services.ai.title': 'Inteligencia Artificial',
