@@ -17,7 +17,7 @@ const translations = {
         'header.subtitle': 'Transformando ideas en soluciones digitales',
         'header.cta': 'Descubre Más',
         'slider.slide1.title': 'Desarrollo Web',
-        'slider.slide1.description': 'Creamos sitios web modernos y responsivos',
+        'slider.slide1.description': 'Creamos sitios web modernos y responsives',
         'slider.slide2.title': 'Aplicaciones Móviles',
         'slider.slide2.description': 'Soluciones nativas para iOS y Android',
         'slider.slide3.title': 'Inteligencia Artificial',
