@@ -157,7 +157,7 @@ const translations = {
         'header.subtitle': 'Transformer les idées en solutions numériques',
         'header.cta': 'Découvrir Plus',
         'slider.slide1.title': 'Développement Web',
-        'slider.slide1.description': 'Nous créons des sites web modernes et responsifs',
+        'slider.slide1.description': 'Nous créons des sites web modernes et responsives',
         'slider.slide2.title': 'Applications Mobiles',
         'slider.slide2.description': 'Solutions natives pour iOS et Android',
         'slider.slide3.title': 'Intelligence Artificielle',
