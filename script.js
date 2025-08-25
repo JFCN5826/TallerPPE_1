@@ -734,12 +734,12 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // Manejo de errores
-/*window.addEventListener('error', (e) => {
+window.addEventListener('error', (e) => {
     console.error('Error de JavaScript:', e.error);
 });
 
 // Registro de Service Worker 
-if ('serviceWorker' in navigator) {
+/*if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
         navigator.serviceWorker.register('/sw.js')
             .then(registration => {
