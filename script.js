@@ -734,7 +734,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // Manejo de errores
-window.addEventListener('error', (e) => {
+/*window.addEventListener('error', (e) => {
     console.error('Error de JavaScript:', e.error);
 });
 
@@ -749,4 +749,4 @@ if ('serviceWorker' in navigator) {
                 console.log('Registro de SW falló: ', registrationError);
             });
     });
-} 
+}*/
